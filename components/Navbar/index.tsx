@@ -8,7 +8,7 @@ export default function Navbar() {
                     className="navbar-item"
                     href={'/'}
                 >
-                    <p className="is-size-2">Kemenkes Dashboard</p>
+                    <p className="is-size-3">Kemenkes Dashboard</p>
                 </Link>
             </div>
             <div className="navbar-menu">
@@ -19,36 +19,6 @@ export default function Navbar() {
                     >
                         Home
                     </Link>
-                    <div className="navbar-item has-dropdown is-hoverable">
-                        <a className="navbar-link">Menu Toko</a>
-                        <div className="navbar-dropdown is-boxed">
-                            <Link
-                                className="navbar-item"
-                                href={'/item'}
-                            >
-                                Lihat Item
-                            </Link>
-                            <Link
-                                className="navbar-item"
-                                href={'/item/create'}
-                            >
-                                Tambah Item
-                            </Link>
-                            <Link
-                                className="navbar-item"
-                                href={'/item/sell'}
-                            >
-                                Jual Item
-                            </Link>
-                            <hr className="navbar-divider" />
-                            <Link
-                                className="navbar-item"
-                                href={'/penjualan'}
-                            >
-                                Summary
-                            </Link>
-                        </div>
-                    </div>
                 </div>
                 <div className="navbar-end">
                 </div>
